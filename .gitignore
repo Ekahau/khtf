@@ -1,0 +1,32 @@
+# idea project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+.recommenders/
+
+# xcode  project files
+
+# mac DS files
+.DS_Store
+
+# generated and build files
+.gradletasknamecache
+.gradle/
+build/
+bin/
+out/
+
+# Local configuration file (sdk path, etc)
+
+
+#logs
+*.log
+
+#sonarqube
+.scannerwork
