@@ -38,11 +38,14 @@ All repositories here could be separated into 4 layers:
 ## List of sub projects
 
 * AndroidApp - Android app, that uses kotlin libraries
+  * https://github.com/ekahau/khtf-androidapp
 * IosApp - iOS app that uses IosAppFw framework (via cocoapods) to import kotlin libraries
   * https://github.com/Ekahau/khtf-iosapp
 * IosAppFw - combine multiple kotlin libraries into single framework
   * https://github.com/Ekahau/khtf-iosapp-fw
-* podspec - cocoapods repository (aka catalog of available frameworks and locations where they stored)
+* IosAppFwFramework - repository for compiled framework artifact, that could be used in iOs app
+  * https://github.com/Ekahau/khtf-iosapp-fw
+* podspec - cocoapods repository (aka catalog of available frameworks and locations where they are stored)
   * https://github.com/Ekahau/khtf-podspec
 * Libs:
   * A, B, C - simple example to show how nested libs could be accessed from ioas/anddroid apps
