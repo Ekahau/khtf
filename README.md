@@ -73,6 +73,19 @@ iosApp have example, with 2 buttons. Depending on each button, initialization se
 
 This allow developers of libs and apps to not worry, of the exact initialization and object creation order.
 
+E.g.:
+
+```
+//in any order
+HistoryServiceFactoryKt.setDefaultHistoryServiceData(initialValue: "Monday")
+ModificationServiceFactoryKt.setDefaultModificationServiceData(mod1: "a", mod2: "b")
+
+//when any of the above services required,the will be initialized in correct order
+LibFCase().doSomething()
+```
+
+Note: cyclic dependencies are not supported
+
 ## Thoughts
 
 Each library may require complex initialization and dependencies for its classes/objects. Developer who use library should do minimal work to be able to use it. Library maybe called from different threads on iOS, and from different entry points. 
