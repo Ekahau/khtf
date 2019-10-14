@@ -80,7 +80,7 @@ E.g.:
 HistoryServiceFactoryKt.setDefaultHistoryServiceData(initialValue: "Monday")
 ModificationServiceFactoryKt.setDefaultModificationServiceData(mod1: "a", mod2: "b")
 
-//when any of the above services required,the will be initialized in correct order
+//when any of the above services are required, they will be initialized in correct order
 LibFCase().doSomething()
 ```
 
