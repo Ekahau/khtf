@@ -58,7 +58,8 @@ All repositories here could be separated into 4 layers:
     * https://github.com/Ekahau/khtf-lib-e
     * https://github.com/Ekahau/khtf-lib-f
     * https://github.com/Ekahau/khtf-lib-g
-  * H,I - 
+  * H - example of cross-platform file loading 
+    * https://github.com/Ekahau/khtf-lib-h
  
  
 ### E, F, G example
